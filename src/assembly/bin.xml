@@ -1,0 +1,24 @@
+<assembly>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <includeBaseDirectory>false</includeBaseDirectory>
+    <fileSets>
+        <fileSet>
+            <includes>
+                <include>Description.props</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>src</directory>
+            <outputDirectory>src</outputDirectory>
+        </fileSet>
+        <fileSet>
+            <directory>target</directory>
+            <outputDirectory></outputDirectory>
+            <includes>
+                <include>j49-2.0.0-jar-with-dependencies.jar</include>
+            </includes>
+        </fileSet>
+    </fileSets>
+</assembly>
